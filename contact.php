@@ -59,5 +59,11 @@ get_header(); ?>
 
 </div><!-- End row -->
 
-
+<div class="insta_footer">
+  <?php if ( is_active_sidebar( 'instagram_footer_1' ) ) : ?>
+          <div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+            <?php dynamic_sidebar( 'instagram_footer_1' ); ?>
+          </div><!-- #primary-sidebar -->
+        <?php endif; ?>
+</div>
 <?php get_footer(); ?>

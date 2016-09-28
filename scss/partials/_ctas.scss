@@ -3,7 +3,7 @@ figure {
   position: relative;
   float: left;
   overflow: hidden;
-  min-width: 320px;
+  // min-width: 320px;
   width: 100%;
   background: #3085a3;
   text-align: center;
@@ -16,7 +16,7 @@ figure img {
   display: block;
   width:100%;
   height: auto;
-  min-height: 100%;
+  // min-height: 100%;
   max-width: 100%;
   opacity: 0.8;
 }
@@ -125,7 +125,7 @@ figure.effect-oscar h2.lng_title{
     @media only screen and (max-width: 2000px) {
       margin: -20% 0 10px 0;
     }
-    @media only screen and (max-width: 1500px) {
+    @media only screen and (min-width: 1500px) {
       margin: -30% 0 10px 0;
     }
 }

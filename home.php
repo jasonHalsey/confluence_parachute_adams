@@ -7,7 +7,7 @@ get_header(); ?>
     <div class="hero_row">
       <div class="large-12 columns hero">
       <div class="logo">
-        <img src="<?php echo bloginfo('template_directory'); ?>/images/white_logo_600.svg" alt="Confluence Fly Shop"/>
+        <img src="<?php echo bloginfo('template_directory'); ?>/images/white_logo_600.png" alt="Confluence Fly Shop"/>
       </div>
         <?php echo do_shortcode("[rev_slider alias='homeSlider2']"); ?>
       </div>
